@@ -7,7 +7,7 @@ import Title from '@/components/UI/Title'
 import Text from '@/components/UI/Text'
 
 export default function About() {
-    const { data } = useApi<Item[]>('./src/data/about.json')
+    const { data } = useApi<Item[]>('/data/about.json')
 
     return (
         <section className="w-full flex items-start justify-center bg-neutral-primary-grayish-light">

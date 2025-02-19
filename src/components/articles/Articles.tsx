@@ -6,7 +6,7 @@ import Title from '@/components/UI/Title'
 import Article from './Article'
 
 export default function Articles() {
-    const { data } = useApi<ArticleProps[]>('./src/data/articles.json')
+    const { data } = useApi<ArticleProps[]>('/data/articles.json')
 
     return (
         <section className="w-full flex items-start justify-center bg-neutral-light">

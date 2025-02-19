@@ -1,0 +1,22 @@
+[
+    {
+        "src": "/images/icon-facebook.svg",
+        "alt": "Facebook"
+    },
+    {
+        "src": "/images/icon-youtube.svg",
+        "alt": "YouTube"
+    },
+    {
+        "src": "/images/icon-twitter.svg",
+        "alt": "Twitter"
+    },
+    {
+        "src": "/images/icon-pinterest.svg",
+        "alt": "Pinterest"
+    },
+    {
+        "src": "/images/icon-instagram.svg",
+        "alt": "Instagram"
+    }
+]

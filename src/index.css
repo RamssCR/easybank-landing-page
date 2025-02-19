@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Primary colors */
+  --color-primary-blue-dark: hsl(233, 26%, 24%);
+  --color-primary-limeGreen: hsl(136, 65%, 51%);
+  --color-primary-cyan-light: hsl(192, 70%, 51%);
+
+  /* Neutral colors */
+  --color-neutral-primary-grayish: hsl(233, 8%, 62%);
+  --color-neutral-primary-grayish-light: hsl(220, 16%, 96%);
+
+  --color-neutral-light: hsl(0, 0%, 98%);
+  --color-neutral-lighter: hsl(0, 0%, 100%);
+
+  /* Font settings */
+  /* Typography */
+  --font-body: "Public Sans", serif;
+
+  /* Size */
+  --text-base: 18px;
+}

@@ -4,7 +4,7 @@ import Image from '@/components/UI/Image'
 import logoIcon from '@/assets/images/logo2.svg'
 
 export default function Brand() {
-    const { data } = useApi<ImgHTMLAttributes<HTMLImageElement>[]>('./src/data/networks.json')
+    const { data } = useApi<ImgHTMLAttributes<HTMLImageElement>[]>('/data/networks.json')
 
     return (
         <article className="w-full flex flex-col items-center gap-7 lg:items-start lg:gap-16 lg:w-fit">
